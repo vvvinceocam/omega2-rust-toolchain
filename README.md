@@ -7,7 +7,7 @@ Rust toolchain for the [Onion Omega2 SBC](https://onion.io/Omega2/).
 Define an alias:
 
 ```
-$ alias omega2-rust-toolchain='docker run --rm -v"$PWD:/home/rust/project" -it rust-omega2'
+$ alias omega2-rust-toolchain='docker run --rm -v"$PWD:/home/rust/project" -it vberset/omega2-rust-toolchain:latest'
 ```
 
 Thus, to compile your project, simply run:
