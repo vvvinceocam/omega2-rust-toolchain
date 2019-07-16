@@ -1,0 +1,6 @@
+[build]
+target = "{{ target }}"
+
+[target.{{ target }}]
+ar = "{{ staging_dir }}/bin/mipsel-openwrt-linux-ar"
+linker = "{{ staging_dir }}/bin/mipsel-openwrt-linux-gcc"
